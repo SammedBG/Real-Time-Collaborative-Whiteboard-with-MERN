@@ -10,7 +10,7 @@
 
 ### 1. Clone the Repository
 
-\`\`\`bash
+```bash
 git clone <repository-url>
 cd collaborative-whiteboard
 ```
