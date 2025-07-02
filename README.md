@@ -13,38 +13,38 @@
 \`\`\`bash
 git clone <repository-url>
 cd collaborative-whiteboard
-\`\`\`
+```
 
 ### 2. Install Server Dependencies
 
-\`\`\`bash
+```bash
 cd server
 npm install
-\`\`\`
+```
 
 ### 3. Install Client Dependencies
 
-\`\`\`bash
+```bash
 cd ../client
 npm install
-\`\`\`
+```
 
 ### 4. Environment Configuration
 
 #### Server Environment (.env in server folder)
 
-\`\`\`env
+```env
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/whiteboard
 CLIENT_URL=http://localhost:3000
 NODE_ENV=development
-\`\`\`
+```
 
 #### Client Environment (.env in client folder)
 
-\`\`\`env
+```env
 REACT_APP_SERVER_URL=http://localhost:5000
-\`\`\`
+```
 
 ### 5. MongoDB Setup
 
@@ -65,17 +65,17 @@ REACT_APP_SERVER_URL=http://localhost:5000
 
 #### Terminal 1 - Start Server
 
-\`\`\`bash
+```bash
 cd server
 npm run dev
-\`\`\`
+```
 
 #### Terminal 2 - Start Client
 
-\`\`\`bash
+```bash
 cd client
 npm start
-\`\`\`
+```
 
 ### 7. Access the Application
 
@@ -86,33 +86,33 @@ npm start
 
 ### Server Tests
 
-\`\`\`bash
+```bash
 cd server
 npm test
-\`\`\`
+```
 
 ### Client Tests
 
-\`\`\`bash
+```bash
 cd client
 npm test
-\`\`\`
+```
 
 ## 📦 Production Build
 
 ### Client Build
 
-\`\`\`bash
+```bash
 cd client
 npm run build
-\`\`\`
+```
 
 ### Server Production
 
-\`\`\`bash
+```bash
 cd server
 npm start
-\`\`\`
+```
 
 ## 🔧 Troubleshooting
 
