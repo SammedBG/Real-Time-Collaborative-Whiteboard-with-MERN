@@ -1,4 +1,4 @@
-import "./UserCursors.css"
+import "../styles/UserCursors.css"
 
 const UserCursors = ({ cursors }) => {
   return (

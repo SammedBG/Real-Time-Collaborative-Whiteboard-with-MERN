@@ -1,5 +1,5 @@
 "use client"
-import "./Toolbar.css"
+import "../styles/Toolbar.css"
 
 const Toolbar = ({ drawingTool, onToolChange, onClearCanvas }) => {
   const colors = ["#000000", "#FF0000", "#0000FF", "#00FF00", "#FFFF00", "#FF00FF", "#00FFFF", "#FFA500"]

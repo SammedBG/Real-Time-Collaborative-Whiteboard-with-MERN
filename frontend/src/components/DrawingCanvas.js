@@ -1,7 +1,7 @@
 "use client"
 
 import { useRef, useEffect, useState, forwardRef, useImperativeHandle } from "react"
-import "./DrawingCanvas.css"
+import "../styles/DrawingCanvas.css"
 
 const DrawingCanvas = forwardRef(({ drawingTool, onDrawStart, onDrawMove, onDrawEnd, onCursorMove }, ref) => {
   const canvasRef = useRef(null)

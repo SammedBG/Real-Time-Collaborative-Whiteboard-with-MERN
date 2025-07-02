@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import "./RoomJoin.css"
+import "../styles/RoomJoin.css"
 
 const RoomJoin = ({ onJoinRoom }) => {
   const [roomId, setRoomId] = useState("")

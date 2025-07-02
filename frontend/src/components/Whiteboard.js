@@ -5,7 +5,7 @@ import io from "socket.io-client"
 import DrawingCanvas from "./DrawingCanvas"
 import Toolbar from "./Toolbar"
 import UserCursors from "./UserCursors"
-import "./Whiteboard.css"
+import "../styles/Whiteboard.css"
 
 const Whiteboard = ({ roomId, userName, onLeaveRoom }) => {
   const [socket, setSocket] = useState(null)
